@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="new.css"/>
+    <title>calculator</title>
+</head>
+<body>
+    <h1>BASIC CALCULATOR</h1>
+    <div class="wrap">
+        <form name="cal" class="form1">
+            <input type="text" name="answer" id="display">
+            <br></br>
+            <input type="button" id="spl" value="C" onclick="cal.display.value=''">
+            <input type="button" class="btn" value="00" onclick="cal.display.value+='00'">
+            <input type="button" class="optbtn" value="/" onclick="cal.display.value+='/'">
+            <br><br>
+            <input type="button" class="btn" value="7" onclick="cal.display.value+='7'">
+            <input type="button" class="btn" value="8" onclick="cal.display.value+='8'">
+            <input type="button"  class="btn"value="9" onclick="cal.display.value+='9'">
+            <input type="button"  class="optbtn" value="*" onclick="cal.display.value+='*'">
+            <br></br>
+            <input type="button" class="btn" value="4" onclick="cal.display.value+='4'">
+            <input type="button" class="btn" value="5" onclick="cal.display.value+='5'">
+            <input type="button" class="btn" value="6" onclick="cal.display.value+='6'">
+            <input type="button" class="optbtn" value="-" onclick="cal.display.value+='-'">
+            <br></br>
+            <input type="button" class="btn" value="1" onclick="cal.display.value+='1'">
+            <input type="button" class="btn" value="2" onclick="cal.display.value+='2'">
+            <input type="button" class="btn" value="3" onclick="cal.display.value+='3'">
+            <input type="button" class="optbtn" class="btn" value="+" onclick="cal.display.value+='+'">
+            <br></br>
+            <input type="button" id="spl" value="0" onclick="cal.display.value+='0'">
+            <input type="button"  class="optbtn" value="." onclick="cal.display.value+='.'">
+            <input type="button" class="optbtn" value="=" onclick="cal.display.value =eval(cal.display.value)">
+        </form>
+    </div>
+</body>
+</html>
