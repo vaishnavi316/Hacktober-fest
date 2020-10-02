@@ -22,4 +22,5 @@ int main()
         cout << num << " is not an Armstrong number.";
 
     return 0;
+    
 }
