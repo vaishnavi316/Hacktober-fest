@@ -18,6 +18,7 @@ int main()
   else
   {
    cout<<"prime";
+    
   }
   return 0;
 }
