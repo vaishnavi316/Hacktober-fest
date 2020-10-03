@@ -1,0 +1,44 @@
+#include<iostream.h>
+#define PI 3.14
+using namepace std;
+class gs
+{
+public:
+double area(int,double);
+int area(int,int);
+double area(double);
+int area(int);
+};
+
+double gs::area(int b,double h)
+{
+return((b*h)/2.0);
+}
+int gs::area(int l,int b)
+{
+return(l*b);
+}
+double gs::area(double r)
+{
+return(PI*r*r);
+}
+int gs::area(int a)
+{
+return(a*a)
+}
+
+int main()
+{
+gs ob1,ob2,ob3,ob4;
+double atri ,acir;
+int arec,asqu;
+atri=ob1.area(12,2.3);
+cout<<"area of triangle :"<<atri<<endl;
+acir=ob2.area(2.5);
+cout<<"area of circle :"<<acir<<endl;
+arec=ob3.area(5,20);
+cout<<"area of rectangle :"<<arec<<endl;
+asqu=ob4.area(6,30);
+cout<<"area of square :"<<asqu<<endl;
+return 0;
+}
