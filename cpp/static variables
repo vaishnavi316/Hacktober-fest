@@ -1,0 +1,13 @@
+#include<iosttream>
+using namspace std;
+void print()
+{
+static int a=1;
+a++;
+cout<<a<<endl;
+}
+int main()
+{
+print();
+print();
+}

@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+.form1{
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    padding-left: 1450px;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    text-align: center;
+}
+#display{
+    border: none;
+    border-radius: 30px;
+    width: 245px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60px;
+    margin: auto;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 0 5px 10px 0 red inset,0 5px 10px 0 red ;
+    text-shadow: 0 0 5px white,0 0 5px white;
+}
+.btn{
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    border: 1px solid #ff9ff3;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 100px;
+    margin: 1.5px;
+    color:  #ff9ff3 ;
+    cursor: pointer;
+    transition: 1.5px;
+    background: black;
+}
+.optbtn{
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    border: 1px solid #15f4ee;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 30px;
+    margin: 1.5px;
+    color:#15f4ee ;
+    transition: 1.5px;
+    background: black;
+    cursor: pointer;
+
+}
+.optbtn:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee ;
+    text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+}
+#spl{
+    width: 116px;
+    height: 55px;
+    padding-top: -1px;
+    border: 1px solid #badc58;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 30px;
+    margin: 1.5px;
+    color: #badc58;
+    background: black;
+    transition: 1.5px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 5px 50px 0 #ff9ff3 inset,0 5px 50px 0 #ff9ff3 ;
+    text-shadow: 0 0 5px  #ff9ff3 ,0 0 5px #ff9ff3;
+}
+h1{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-right: 80px;
+    justify-content: center;
+    text-shadow: 0 0 5px white,0 0 5px white;
+}
+#spl:hover{
+    box-shadow: 0 5px 50px 0 #badc58 inset,0 5px 50px 0 #badc58;
+    text-shadow: 0 0 5px #15f4ee ,0 0 5px #badc58;
+}

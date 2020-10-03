@@ -1,17 +1,19 @@
-#include<stdio.h>
-main(){
-    int n,m,s,p=0;
-    printf("enter a number ");
-    scanf("%d",&n);
-    m=n; 
-    while(n>0)
-    {
-        s=n%10;
-        p=p*10+s;
-        n=n/10;
+#include <stdio.h>
+int main() {
+    int n, rev = 0, remainder, original;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+    original = n;
+    while (n != 0) {
+        remainder = n % 10;
+        rev = rev * 10 + remainder;
+        n /= 10;
     }
-    if(m==p)
-    printf("given number is pallindrome");
+    if (original == rev)
+        printf("%d is a palindrome.", original);
     else
-    printf("given number is not a palindrome");
+        printf("%d is not a palindrome.", original);
+
+    return 0;
 }
+
