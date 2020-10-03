@@ -1,0 +1,100 @@
+DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background:url("backgr.jpg");
+            position: fixed;
+             text-align: center;
+            padding: 0px;
+        }
+    .b{
+        background-color:lightgreen;
+    }<!
+    div{
+        background-color: whitesmoke;
+        align: center;
+        height: 370px;
+        border-radius: 20px;
+    }
+    .g{
+        background-color:orangered;
+        width: 180px;
+        border-radius: 5px;
+      } 
+    .c{
+          background-color:lightgrey;
+          border-radius: 5px;
+          align:left;
+      }
+    img{
+        float:left;  
+      } 
+      h2{
+          margin-right: 800px;
+          margin-top: 0px;
+          color: hotpink;
+      }
+     button{
+         background-color: whitesmoke;
+     }
+     li{
+         float: left;
+         padding: 10px 20px 10px 20px;
+        background-color:whitesmoke;
+     }
+     .s{
+        list-style: none;
+        margin-top: 0px;
+        color: whitesmoke;
+     }
+     .search{
+         margin-left: 1000px;
+         padding: 5px 70px;
+         background-color:whitesmoke;
+         border-radius: 30px;
+         width: 200px;
+     }
+     p{
+         margin-left: 10px;
+     }
+
+    </style>
+        <body>
+            <input class="search" type="text" placeholder="search here for donation camps">
+            
+            <h2>SRAVYA'S FOUNDATION</h2>
+          <p>  <img src="s.jpg" width="100px" height="100px" ></p>
+            
+            <ul class="s">
+                <li><a href="">children</a></li>
+                <li><a href="">cancer care</a></li>
+                <li><a href="">differently abled</a></li>
+                <li><a href="">education</a></li>
+                <li><a href="">health</a></li>
+                <li><a href="">women</a></li>
+                <li><a href="">contact us</a></li>
+            </ul>
+            
+            <img src="help.jpg" height="130px" width="270px">
+            <marquee class="b">MISSION HUNGER........SAVE THE POOR FROM HUNGER........MISSION HUNGER</marquee>
+                <img src="child.jpg" width="950px" height="400px">
+            <button>DONATE NOW</button>
+            <div> 
+                <h4>*HELP US*</h4>
+              NAME : <input class="c" type="text" placeholder="FULL NAME"><br><br>
+            NUM   :  <input class="c" type="text" placeholder="MOBILE NUMBER"><br><br>
+            EMAILID: <input class="c" type="text" placeholder="EMAIL ID"><br><br>
+          PASSWORD: <input class="c" type="text" placeholder="PASSWORD"><br><br>
+            
+          ADDRESS: <input class="c" type="text" placeholder="RESIDENTIAL ADDRESS"><br><br>
+                <button class="g">login</button><br><br>
+                <a href="">forgot password?</a><br><br>
+             
+                    <button>create new account</button>
+                
+            </div>
+         
+        </body>
+</head>
+</html>
