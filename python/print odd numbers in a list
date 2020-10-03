@@ -1,0 +1,4 @@
+list = [56,66,25,71,94,33,185] 
+for num in list:
+    if num % 2 != 0: 
+       print(num, end = " ") 
