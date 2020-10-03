@@ -1,0 +1,19 @@
+<html>
+<head>
+<body>
+<script language = "javascript">
+var movie = prompt ("enter your favourite movie!");
+switch(movie){
+case "iron man":
+document.write("hollwood movie");
+break;
+case "bahubali":
+document.write("tollywood movie");
+break;
+default:
+document.write("movie not found");
+}
+</script>
+</body>
+</head>
+</html>
