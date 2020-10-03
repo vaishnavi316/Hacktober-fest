@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+ <head> 
+  <style>
+      body {
+        background-image: url(" https://i.pinimg.com/originals/e7/14/4b/e7144b57091efffaa683a29143b9a2bb.jpg");
+      }
+      .email {
+      padding: 6px;
+      border-radius: 8px;
+      background-color: black;
+      border-color: grey;
+    }
+
+      .btn {
+        padding: 5px 25px 5px;
+        width: 200px;
+        background-color: black;
+        border-color: white;
+        color: white;
+        border-radius: 8px;
+        color: white;
+      }
+
+      .container {
+        display: flex;
+        margin-top: 550px;
+        justify-content: space-evenly;
+        background-color: black;
+      }
+      .start {
+    background-color: #3399CC;
+    margin-bottom: 20px;
+    padding: 2px;
+ }
+ 
+
+ 
+</style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <div style=" text-align: center;"> 
+    <h1 style="font-type: bold;
+                    color: white;
+                    ">welcome</h1> 
+    <p style="margin: 0; padding: 0;color: white"> " Sign out of the past <br> and login to the new " </p> 
+   </div> 
+   <div style="
+
+          background-color: black;
+          border-radius: 3px;
+        "> 
+    <h1 style=" color: white;" ">Log in</h1> 
+    <hr class="start"> 
+    <input style="width: 250px;" class="email" placeholder="enter email or phone number"> 
+    <br> 
+    <br> 
+    <input style="width: 250px;" class="email" placeholder="Password"> 
+    <br> 
+    <br> 
+    <center> 
+     <button class="btn" ; style: "align-items: center">Log In</button> 
+    </center> 
+    <br> 
+    <hr> 
+    <center> 
+     <a style="color: #979AAA;" href="#">Forgotten Account?</a> 
+    </center> 
+    <br> 
+   </div> 
+  </div> 
+ </body>
+</html>
